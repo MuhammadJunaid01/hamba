@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hambaq landing Page</title>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap stylesheet -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontaweesome cdn -->
+    <script src="https://kit.fontawesome.com/4d5a762cf0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg p-1 mb-5 bg-body rounded fixed-top fs-4">
+            <div class="container">
+
+
+                <a class="navbar-brand" href="#">
+                    <img width="250px" height="80px" src="images/cow2.gif" alt="">
+                </a>
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex ms-3">
+                        <input class="form-control me-2 px-5 fs-4" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Goats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contuct </a>
+                        </li>
+
+
+                    </ul>
+                    <a class="fs-3 s-card " href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+
+            </div>
+        </nav>
+        <!-- end nav -->
+
+        <!-- start slide menu -->
+        <div style="margin-top: 100px;" id="carouselExampleIndicators" class="carousel slide background container "
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner ">
+
+
+                <div class="carousel-item active mt-5">
+                    <div class="row d-flex align-items-center ms-5">
+                        <div class="col-lg-6 ">
+                            <img width="400px" height="475px" src="images/banner-1-2.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img width="495px" height="502px" src="images/banner.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="carousel-item  mt-5">
+                    <div class="row fs-4 d-flex align-items-center ms-5">
+                        <div class="col-lg-6 ">
+                            <h1 class="text-white">Cow Price</h1>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, enim.
+                                Repellendus
+                                quod nostrum dicta provident quibusdam corrupti qui consequuntur magnam.</p>
+                            <button class="btn btn-success px-4">$600</button> </button>
+                        </div>
+                        <div class="col-lg-6">
+                            <img width="400px" height="502px" src="images/cow2.png" alt="">
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="carousel-item  mt-5">
+                    <div class="row fs-4 d-flex align-items-center  ms-5">
+                        <div class="col-lg-6 ">
+                            <h1 class="text-white">Cow Price</h1>
+                            <p class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, enim.
+                                Repellendus
+                                quod nostrum dicta provident quibusdam corrupti qui consequuntur magnam.</p>
+
+                            <button class="btn btn-success px-4">$450</button> </button>
+                        </div>
+                        <div class="col-lg-6">
+                            <img width="400px" height="502px" src="images/cow3.png" alt="">
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+    <!-- end header -->
+
+    <main>
+        <div class="container mt-4 ">
+
+            <div class="row gx-5 d-flex justify-content-between">
+                <div class="col-lg-4 col-12 zoom">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded image" style="width: 18rem;">
+
+                        <img width="254px" height="245px" src="images/goat1.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Goats</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Price $430</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 zoom">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded image" style="width: 18rem;">
+
+                        <img src="images/goat2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Goats</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-info">Price $450</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-4 zoom">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded image" style="width: 18rem;">
+
+                        <img src="images/goat2.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Goats</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-warning">Price $450</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 zoom">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded image" style="width: 18rem;">
+
+                        <img src="images/goat3.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Goats</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-dark text-white">Price $450</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 zoom">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded image" style="width: 18rem;">
+
+                        <img width="254px" height="245px" src="images/goat1.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Goats</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-danger">Price $450</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 zoom">
+                    <div class="card shadow-lg p-3 mb-5 bg-body rounded image" style="width: 18rem;">
+
+                        <img src="images/goat3.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Goats</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-warning">Price $450</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+        <!-- end card section -->
+
+        <!-- start canvas -->
+        <div class="container">
+
+            <div class="card mb-3 mx-auto bg1" style="max-width: 540px;">
+                <div class="row bg1 g-0">
+                    <div class="col-md-4">
+                        <img src="images/goat2 (2).png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Goats Farm</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+
+                            <!-- start can -->
+
+                            <button class="btn btn-warning btn-sm" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">See
+                                More...</button>
+
+
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+                                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Goats Farming</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quasi animi
+                                        dolorem, pariatur tempore harum maxime voluptatibus laborum doloremque?
+                                        Laudantium consequatur tempore fuga repudiandae possimus iusto suscipit nesciunt
+                                        facilis, doloribus ex adipisci numquam voluptatibus! Amet accusantium animi
+                                        voluptate sapiente ut aliquam optio vitae itaque, quam enim eaque placeat
+                                        asperiores explicabo iure commodi officiis similique reiciendis pariatur
+                                        assumenda. Libero nemo hic itaque officia sed atque qui sit aliquam, suscipit at
+                                        perspiciatis nihil natus corrupti. Cum voluptate veniam, adipisci vel asperiores
+                                        officiis fuga sint voluptates voluptas possimus perspiciatis expedita aspernatur
+                                        in deserunt ipsam magni earum, nulla accusantium! Sapiente, quo odit! Hic, ad?
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end canvas -->
+
+            <!-- start reg. form -->
+
+            <div class="reg-form mx-auto w-25">
+                <h4 class="border-bottom  border-warning py-2 justify-content-center d-flex "> Booking Now</h4>
+                <form class="">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </main>
+    <!-- end mian-->
+
+    <!-- start footer -->
+    <div class="container  p-2 bg2 mt-5">
+        <div class="row d-flex align-items-center ">
+            <div class="col-lg-4 ms-4">
+                <img src="images/footer.gif" alt="">
+            </div>
+
+            <div class="col-lg-4">
+                <h5 class=" fs-3 text-dark">Hamba Landing Page</h5>
+            </div>
+        </div>
+        <div class="copyright ms-5  ">
+            <span>MJ </span>
+            <span><i class="far fa-copyright"></i></span>
+            <span>corporation</span>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
